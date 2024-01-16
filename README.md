@@ -27,3 +27,26 @@
 // - 18-19: "Sorry, you must be atleast 20. Why don't you try a bar instead?"
 // - 20-80: "Thank you! Welcome!"
 // - 80+ I'm sorry, where is your caretaker?
+
+
+
+// 11-Create a function that takes an array of 10 different numbers as an argument. Calculate the total sum of all the numbers in the array and return that value. Log it to the console.
+// let numbersArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// function numbersSum (array){
+//     let sum = array.reduce((a, b) => a + b, 0)
+//     return sum;
+// }
+// console.log(numbersSum(numbersArray));
+
+
+
+// 12-Create an person object that has the following attributes:
+// - name
+// - age
+// - city
+// - skills
+
+// The skills attribute should be an array that contains strings of different skills, like: "Pokemon Master", "Kung Fu Legend", "Football Ninja" or any other skill. At least five of them.
+
+// Then create a function that takes the person as argument and lists all the skills of the person to the console.
+

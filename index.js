@@ -93,3 +93,53 @@ function meanValueCalculate(array) {
       return meanValue;
 }
  console.log(meanValueCalculate(Array));
+
+ // 10-Create a function that takes an age as an argument.
+// Check the age and return one of the following messages.
+let age = 14;
+ function ageControl (age){
+    if (age > 0 && age <= 14) {
+       console.log("Get out of here!");
+     }
+      else if (age >= 15 && age <= 17) {
+    console.log("Sorry, you are not old enough");
+     } else if (age >= 18 && age <= 19) {
+      console.log("Sorry, you must be atleast 20. Why don't you try a bar instead?");
+     } else if (age >= 20 && age <= 80) {
+       console.log("Thank you! Welcome!");
+     } else if (age > 80) {
+       console.log("I'm sorry, where is your caretaker?");
+     } else {
+         console.log('Something went wrong');
+     }
+ }
+ ageControl(age);
+
+
+ // 11-Create a function that takes an array of 10 different numbers as an argument. Calculate the total sum of all the numbers in the array and return that value. Log it to the console.
+let myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+function numbersSum (array){
+    let sum = array.reduce((a, b) => a + b, 0)
+     return sum;
+ }
+ console.log(numbersSum(myArray));
+ // output 55
+
+ // 12-Create an person object that has the following attributes:
+// - name
+// - age
+// - city
+// - skills
+
+// Then create a function that takes the person as argument and lists all the skills of the person to the console.
+const person = {
+    name: 'Sadia Khan',
+     age: 35,
+     city: 'Stockholm',
+     skills: ['Reading','C', 'Html', 'Css', 'Javascript', 'Agile', 'React']
+ }
+ function skillsList (user){
+    console.log (user);
+    console.log(user.skills);
+ }
+ skillsList(person);
